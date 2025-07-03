@@ -27,7 +27,7 @@ SECURE_FILE_SHARE/
 ## 🚀 Getting Started (Clone and Run)
 
 ### 1. Clone the repository
-git clone [https://github.com//secure-share.git](https://github.com/CSEExplorer/secure_file_share.git)
+git clone [https://github.com//secure-share.git](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share.git)
 
 cd secure-share
 
@@ -51,35 +51,35 @@ python manage.py runserver
 ### ✅ 1. Client Signup  
 **POST** `/api/client/signup/`  
 ➡ Creates a new client user  
-📸 Screenshot: ![Signup OK](https://raw.githubusercontent.com/CSEExplorer/secure_file_share/refs/heads/master/Postman%20Images/client-signup.png)
+📸 Screenshot: ![Signup OK](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100243.png)
 
 ---
 
 ### 📧 2. Email Verification  
 **GET** `/api/client/verify/?token=<verification_token>`  
 ➡ Activates the client account  
-📸 Screenshot: ![Email Verified](https://github.com/CSEExplorer/secure_file_share/blob/master/Postman%20Images/verify-email.png)
+📸 Screenshot: ![Email Verified](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100508.png)
 
 ---
 
 ### 🔐 3. Client Login  
 **POST** `/api/client/login/`  
 ➡ Returns JWT token for authentication  
-📸 Screenshot: ![Login OK](https://raw.githubusercontent.com/CSEExplorer/secure_file_share/refs/heads/master/Postman%20Images/client-login.png)
+📸 Screenshot: ![Login OK](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100619.png)
 
 ---
 
 ### 🗂️ 4. Upload File (Ops only)  
 **POST** `/api/file/upload/`  
 ➡ Auth: Ops JWT required  
-📸 Screenshot: ![Upload OK](https://raw.githubusercontent.com/CSEExplorer/secure_file_share/refs/heads/master/Postman%20Images/file-upload.png)
+📸 Screenshot: ![Upload OK](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100753.png)
 
 ---
 
 ### 📥 5. List Uploaded Files (Client only)  
 **GET** `/api/file/list/`  
 ➡ Lists file names and metadata  
-📸 Screenshot: ![File List](https://github.com/CSEExplorer/secure_file_share/blob/master/Postman%20Images/list-file.png)
+📸 Screenshot: ![File List](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100825.png)
 
 ---
 
@@ -87,20 +87,20 @@ python manage.py runserver
 **POST** `/api/file/download-token/`  
 ➡ Auth: Client JWT required  
 ➡ Body: `{ "filename": "xyz.pdf" }`  
-📸 Screenshot: ![Download Token](https://raw.githubusercontent.com/CSEExplorer/secure_file_share/refs/heads/master/Postman%20Images/generate-download-link.png)
+📸 Screenshot: ![Download Token](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100907.png)
 
 ---
 
 ### 📥 7. Download File  
 **GET** `/api/file/download/?token=<download_token>`  
 ➡ Secure one-time file access  
-📸 Screenshot: ![Download OK](https://raw.githubusercontent.com/CSEExplorer/secure_file_share/refs/heads/master/Postman%20Images/download-file.png)
+📸 Screenshot: ![Download OK](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/Screenshots%20for%20200OK/Screenshot%202025-07-03%20100947.png)
 
 ## 📦 Postman Collection
 
 You can import the complete Postman Collection from this link:
 
-🔗 [Secure File Sharing API Collection (JSON)](https://github.com/CSEExplorer/secure_file_share/blob/master/postman/Secure%20File%20Sharing%20API%20Collection.postman_collection.json)
+🔗 [Secure File Sharing API Collection (JSON)](https://github.com/Abhishek-kumar-vidyarthi/secure_file_share/blob/main/postman/Secure%20File%20Sharing%20API%20Collection.postman_collection.json)
 
 ---
 
